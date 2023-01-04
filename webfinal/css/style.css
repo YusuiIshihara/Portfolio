@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+*{  /*7/5　②すべての要素に対して、字体を指定*/
+  font-family: serif;
+}
+
+#container{　　/*7/1 ②header以外のすべてに対して中央揃えを指定*/
+  margin-top: calc(1.2em + 20px + 2px); 
+  text-align: center;
+}
+
+header{
+  height: 360px;
+  
+  background-image: url("../image/kira_waikiki.jpg");/*②6/28 背景画像を設定*/
+  background-size: cover;/*②6/28 背景画像の大きさを設定*/
+  background-position: center;/*②6/28 背景画像を上下中央揃いかつ右揃えに指定*/
+  padding: 180px;
+}
+
+article{
+  background-color: #ffffff;		     	
+  padding: 20px;
+  text-align: center;
+}
+
+#cafe{
+  background-image: url("../image/nishio_sea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#sakushima{
+  background-image: url("../image/sakushima_sea.jpg");
+  background-size: cover;
+}
+
+#link{
+  background-image: url("../image/nishio_view.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section{
+  /*border: solid 1px #000066;*/
+  background-color: #99ccff;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: center; 
+  box-shadow: 0 0 0.75rem #cccccc;  /*②7/5 周囲に影をつけるよう指定*/
+  border-radius: 20px;  /*②7/5 角を半径10pxで丸く*/
+}
+
+nav{
+  width: 100%;
+  overflow: hidden;
+  position: fixed;/*②ナビゲーションメニューの位置を固定*/
+  top: 0;/*②ナビゲーションメニューの位置を上から0pxの位置に指定*/
+}
+
+nav ul{
+  width: 100%;
+  display:flex;
+  /*margin: 0;*/
+  /*padding: 0;*/
+}
+
+nav li{
+  width: calc(100% / 4);	/*⑤*/
+  font-size: 120%;
+  font-weight: bold;		/*⑥*/
+  line-height: 60px;
+  border-left: 1px solid #f9f9f9;
+  background-color: #000066;
+  text-align: center;
+  list-style: none;
+}
+
+nav a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1{
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 4px 4px 5px #000000;
+}
+
+h2{  /*①h2タグの背景を虹にグラデーション、かつ、文字を中央揃えに指定*/
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #99ccff, #99ff99, #ffff7f, #ffbf7f, #ff8e8e);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3{
+  border-bottom: double #000066;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+dt{
+  font-weight:bolder;
+  margin-top:10px;
+}
+   
+dl{
+  background-color: #ffffcc;
+  border: ridge 10px #ffffcc;
+  padding: 10px;
+}
+
+dd{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+dl.center{
+  width: 58%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+#left{
+  text-align: left;
+}
+  
+p{
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  text-indent: 1em; /*7/5 ②段落冒頭を１文字分字下げに指定*/
+  line-height: 1.8em;
+}
+
+p.white{  /*①7/5 文字の色を変更*/
+  color: #ffffff;
+  width:27em;
+}
+
+p.right{  /*②7/5 右寄せするpタグを指定*/
+  text-align: right;
+}
+
+figure.photo-left{
+  text-align:left;
+  display:flex;
+}
