@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{  /*7/5　②すべての要素に対して、字体を指定*/
+  font-family: serif;
+}
+
+
+header{
+  height: 360px;  
+  padding: 180px;
+
+  background-image: url("../image/Mr.Children01.jpg"); /*背景画像の初期値*/
+  background-position: center center;
+  background-size: 100% 360px;
+  
+}
+
+
+article{
+  background-color: #ffffff;		     	
+  padding: 20px;
+  text-align: center;
+}
+
+
+section{
+  /*border: solid 1px #000066;*/
+  background-color: #99ccff;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: center; 
+  box-shadow: 0 0 0.75rem #cccccc;  /*②7/5 周囲に影をつけるよう指定*/
+  border-radius: 20px;  /*②7/5 角を半径10pxで丸く*/
+}
+
+
+h1{
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 4px 4px 5px #000000;
+}
+
+h2{  /*①h2タグの背景を虹にグラデーション、かつ、文字を中央揃えに指定*/
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #99ccff, #99ff99, #ffff7f, #ffbf7f, #ff8e8e);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3{
+  border-bottom: double #000066;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+p{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  text-indent: 1em; /*7/5 ②段落冒頭を１文字分字下げに指定*/
+  line-height: 1.8em;
+}
+
+p.center{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-indent: 1em; /*7/5 ②段落冒頭を１文字分字下げに指定*/
+  line-height: 1.8em;
+}
+
+p.white{  /*①7/5 文字の色を変更*/
+  color: #ffffff;
+  width:27em;
+}
+
+dt{
+	font-weight:bolder;
+	margin-top:10px;
+  }
+	 
+  dl{
+	background-color: #ffffcc;
+	border: ridge 10px #ffffcc;
+	padding: 10px;
+  }
+  
+  dd{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top:5px;
+  margin-bottom:5px;
+  color: #505050;/*文字色*/
+  padding: 10px;/*文字周りの余白*/
+  display: inline-block;/*おまじない*/
+  line-height: 1.3;/*行高*/
+  background: #dbebf8;/*背景色*/
+  vertical-align: middle;
+  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+  }
+
+  button {
+    padding: 10px;
+    text-decoration: none;
+    background: #99ccff;
+    color: #FFF;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+
+
+
